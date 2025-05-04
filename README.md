@@ -1,30 +1,30 @@
- # desafio_sistema_bancario_otimizado
+# desafio_sistema_bancario_otimizado
 Código do sistema bancário otimizado feito conforme instruções do desafio.
+
+## Implementações feitas na segunda versão:
+
+1. Transição para uma estrutura orientada a objetos usando classes.
+2. Introdução da classe Usuario para encapsular informações pessoais e a lógica de criação de usuários.
+3. Introdução da classe Conta para gerenciar dados e operações específicas da conta.
+4. Lógica de depósito e saque encapsulada dentro da classe Conta.
+5. Implementação de um sistema para rastrear o número de saques diários e impor limites de saque.
+6. Estabelecimento de uma relação entre usuários e suas contas por meio de associação de objetos.
+7. Melhoria na organização do código ao separar manipulação de dados e lógica.
+8. Garantia de comportamento consistente do sistema por meio de validações realizadas dentro de métodos nas classes.
 
 ## Melhorias implementadas
 
-1. **Separação em funções** 
-Criado funções para todas as operações do sistema.
-
-2. **Saque**
-A função saque com os argumentos apenas por nome (keyword only). 
-
-3. **Depósito**
-
-A função depósito recebe os argumentos apenas por posição (positional only). 
-4. **Novas Funções**
-Criadas duas novas funções: criar usuário e criar conta corrente. 
-
-5. **Criar Usuário (cliente)** 
-
-O programa armazena os usuários em uma lista. 
-O endereço é uma string com o formato: logradouro, nro - bairro - cidade/sigla estado. 
-Impossibilitado cadastro de 2 usuários com o mesmo CPF.
-
+1. **Separação em funções** Criado funções para todas as operações do sistema.
+2. **Saque** A função saque com os argumentos apenas por nome (keyword only). 
+3. **Depósito** A função depósito recebe os argumentos apenas por posição (positional only). 
+4. **Novas Funções** Criadas duas novas funções: criar usuário e criar conta corrente. 
+5. **Criar Usuário (cliente)**  O programa armazena os usuários em uma lista. 
+ a. O endereço é uma string com o formato: logradouro, nro - bairro - cidade/sigla estado. 
+ b. Impossibilitado cadastro de 2 usuários com o mesmo CPF.
 6. **Criar conta corrente**
-O programa armazena contas em uma lista. 
-O número da conta sequencial, iniciando em 1. 
-O número da agência é fixo: "0001". 
+ a. O programa armazena contas em uma lista. 
+ b. O número da conta sequencial, iniciando em 1. 
+ O número da agência é fixo: "0001". 
 O usuário pode ter mais de uma conta, mas uma conta pertence a somente um usuário.
 
 ## Melhorias adicionais
